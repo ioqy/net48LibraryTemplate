@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch DebugConsole",
+				"type": "clr",
+				"request": "launch",
+				"preLaunchTask": "build",
+				"program": "${workspaceFolder}/DebugConsole/bin/Debug/net48/DebugConsole.exe",
+				"args": [],
+				"cwd": "${workspaceFolder}",
+				"stopAtEntry": false,
+				"console": "internalConsole"
+			}
+		],
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"type": "dotnet",
+				"task": "build",
+				"group": "build",
+				"problemMatcher": [],
+				"label": "build"
+			}
+		]
+	}
+}
