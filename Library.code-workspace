@@ -12,8 +12,8 @@
 				"name": "Launch DebugConsole",
 				"type": "clr",
 				"request": "launch",
-				"preLaunchTask": "build",
-				"program": "${workspaceFolder}/DebugConsole/bin/Debug/net48/DebugConsole.exe",
+				"preLaunchTask": "Build",
+				"program": "${workspaceFolder}/artifacts/bin/DebugConsole/debug/DebugConsole.exe",
 				"args": [],
 				"cwd": "${workspaceFolder}",
 				"stopAtEntry": false,
@@ -25,11 +25,11 @@
 		"version": "2.0.0",
 		"tasks": [
 			{
+				"label": "Build",
 				"type": "dotnet",
 				"task": "build",
 				"group": "build",
-				"problemMatcher": [],
-				"label": "build"
+				"problemMatcher": []
 			}
 		]
 	}

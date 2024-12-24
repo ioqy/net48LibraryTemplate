@@ -7,6 +7,7 @@
     <LangVersion>latestMajor</LangVersion>
 
     <IsPackable>false</IsPackable>
+    <IsPublishable>false</IsPublishable>
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
@@ -24,9 +25,5 @@
   <ItemGroup>
     <ProjectReference Include="..\src\Library.csproj" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
-  </PropertyGroup>
 
 </Project>
